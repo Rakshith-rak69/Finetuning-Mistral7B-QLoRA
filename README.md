@@ -95,8 +95,8 @@ The fine-tuning process successfully adapted the Mistral-7B model to generate te
 
 Perplexity, an intrinsic evaluation metric for language models, quantifies how well a probability model predicts a sample. A lower perplexity indicates better model performance, suggesting the model has a stronger understanding of the text's underlying patterns.
 
-* **Base model perplexity:** tensor(8.5008, device='cuda:0')  
-* **Finetuned model perplexity:** tensor(6.2617, device='cuda:0')
+* **Base model perplexity:** ```bash tensor(8.5008, device='cuda:0')  ```
+* **Finetuned model perplexity:** ```bash tensor(6.2617, device='cuda:0') ```
 
 This reduction in perplexity demonstrates a measurable improvement in the model's ability to predict text in the "Frankenstein" domain, specifically a **\~26.34% decrease** in perplexity.
 
@@ -146,6 +146,3 @@ As clearly observed, the finetuned model generates a completion that is contextu
 * **Advanced Evaluation:** Implement more sophisticated human evaluation metrics or task-specific evaluations.  
 * **Deployment:** Integrate the finetuned model into a simple web application (e.g., using Streamlit or Gradio) for interactive text generation.
 
-## **License**
-
-(Optional: Add a license, e.g., MIT License)
