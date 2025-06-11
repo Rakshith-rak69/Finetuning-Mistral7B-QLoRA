@@ -1,0 +1,15 @@
+# Hide secret files
+.env
+secrets.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Models
+*.bin
+*.pt
+*.safetensors
