@@ -55,8 +55,9 @@ To get this project running on your local machine or a cloud environment like Go
    pip install \-r requirements.txt
    ```
 
-```bash
-   **requirements.txt content:**  
+
+   **requirements.txt content:**
+   ```bash
    bitsandbytes  
    transformers  
    peft  
@@ -66,7 +67,7 @@ To get this project running on your local machine or a cloud environment like Go
    torch  
    scikit-learn  
    Jinja2==3.0.3
-```
+   ```
 
    *Note: A GPU (e.g., NVIDIA CUDA enabled) is highly recommended for efficient training, as fine-tuning large models is computationally intensive.*  
 7. Hugging Face Token:  
